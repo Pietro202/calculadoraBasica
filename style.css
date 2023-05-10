@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(64, 91, 242, 0.6);
+}
+
+.wrapper {
+    width: 400px;
+    padding: 50px;
+    background-color: rgb(14, 14, 14);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-align: center;
+    transform: translate(-50px, -50px);
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+
+input[type="text"] {
+    height: 30px;
+    font-size: 24px;
+}
+
+input[type="radio"]{
+    height: 24px;
+    width: 20px;
+}
+
+b{
+    font-size: 30px;
+}
+
+button{
+    background-color: rgb(227, 82, 82);
+    padding: 20px 35px;
+    border: none;
+    border-radius: 30%;
+    width: 230px;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
